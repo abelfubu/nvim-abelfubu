@@ -115,7 +115,7 @@ hi TSRepeat guifg=#62e2c6 ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#9cdcfe ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeyword guifg=#569cd6 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeywordFunction guifg=#62e2c6 ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSKeywordOperator guifg=#569cd6 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSKeywordOperator guifg=#62e2c6 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSOperator guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSException guifg=#62e2c6 ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSType guifg=#97cec2 ctermfg=115 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
