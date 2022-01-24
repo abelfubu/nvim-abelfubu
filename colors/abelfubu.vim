@@ -27,14 +27,6 @@ let s:Color17 = '#274342'
 let s:Color1 = '#B5CEA8'
 let s:Color9 = '#eeebd8'
 
-" call s:highlight('Normal', s:Color11, s:Color13, '')
-" call s:highlight('Visual', s:Color17, '', '')
-" call s:highlight('CursorLine', s:Color17, '', '')
-" call s:highlight('ColorColumn', s:Color17, '', '')
-" call s:highlight('SignColumn', s:Color11, '', '')
-" call s:highlight('TabLine', s:Color11, '', '')
-" call s:highlight('TabLineSel', '', s:Color14, '')
-" call s:highlight('TabLineFill', s:Color11, '', '')
 hi Normal guifg=#eeebd8 ctermfg=249 guibg=#1a1f24 ctermbg=234 gui=NONE cterm=NONE
 hi Comment guifg=#777777 ctermfg=65 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#569cd6 ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -243,16 +235,17 @@ hi debugPc guifg=NONE ctermfg=NONE guibg=#97cec2 ctermbg=115 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi GitSignsAdd guifg=#56B6C2 ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsChange guifg=#0c7d9d ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitSignsDelete guifg=#94151b ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsDelete guifg=#e06c75 ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignError guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignWarning guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignInformation guifg=#ffcc66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignHint guifg=#4fc1ff ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextError guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsVirtualTextError guifg=#e06c75 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextWarning guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextInformation guifg=#ffcc66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextHint guifg=#4fc1ff ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi QuickScopeSecondary guifg=#ef5f70 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi QuickScopePrimary guifg=#00c7df ctermfg=44 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi QuickScopeSecondary guifg=#ef5f70 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi MatchWord guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -290,7 +283,7 @@ hi BufferInactiveTarget guifg=#e06c75 ctermfg=168 guibg=#2e2e2e ctermbg=236 gui=
 hi CodiVirtualText guifg=#6395ec ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentBlanklineContextChar guifg=#707070 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHeader1 guifg=#ce9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi VimwikiHeader2 guifg=#608b4e ctermfg=65 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi VimwikiHeader2 guifg=#4aa190 ctermfg=65 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader3 guifg=#569cd6 ctermfg=74 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader4 guifg=#97cec2 ctermfg=115 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader5 guifg=#e5c07b ctermfg=180 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -301,3 +294,8 @@ hi VimwikiHR guifg=#dcdcaa ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi VimwikiList guifg=#ce9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiTag guifg=#ce9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiMarkers guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+hi DiagnosticError guifg=#E06C75
+hi DiagnosticWarn guifg=#E5C07B
+hi DiagnosticInfo guifg=#569CD6
+hi DiagnosticHint guifg=#97cec2
